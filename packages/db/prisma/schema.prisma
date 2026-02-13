@@ -1,0 +1,286 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider  = "postgresql"
+  url       = env("DATABASE_URL")
+  directUrl = env("DIRECT_URL")
+}
+
+// ===== 基盤 =====
+
+model Prefecture {
+  id           String        @id @default(cuid())
+  code         String        @unique // "01"〜"47"
+  name         String // "北海道"
+  region       Region
+  population   Int?
+  schoolStats  SchoolStat[]
+  teacherStats TeacherStat[]
+  universities University[]
+}
+
+enum Region {
+  HOKKAIDO
+  TOHOKU
+  KANTO
+  CHUBU
+  KINKI
+  CHUGOKU
+  SHIKOKU
+  KYUSHU
+}
+
+model Party {
+  id        String            @id @default(cuid())
+  name      String            @unique // "自由民主党"
+  shortName String // "自民"
+  color     String // "#E70112"
+  website   String?
+  stances   EduPolicyStance[]
+}
+
+// ===== 教育予算 =====
+
+model EduBudget {
+  id          String         @id @default(cuid())
+  fiscalYear  Int // 2019〜2026
+  category    BudgetCategory
+  amount      BigInt // 億円単位
+  description String?
+  source      String? // データソースURL
+}
+
+enum BudgetCategory {
+  ELEMENTARY_SECONDARY // 初等中等教育
+  HIGHER_EDUCATION // 高等教育
+  SCIENCE_TECHNOLOGY // 科学技術
+  SPORTS // スポーツ
+  CULTURE // 文化
+  SCHOLARSHIP // 奨学金・学生支援
+  FACILITY // 施設整備
+  LIFELONG_LEARNING // 生涯学習
+  OTHER // その他
+}
+
+model EduProgram {
+  id             String         @id @default(cuid())
+  name           String // "GIGAスクール構想"
+  description    String
+  category       BudgetCategory
+  startYear      Int
+  endYear        Int?
+  budgetBillions Float? // 予算規模（億円）
+  url            String?
+}
+
+model OecdComparison {
+  id                  String @id @default(cuid())
+  country             String // "Japan", "Finland" 等
+  countryCode         String // "JPN", "FIN"
+  year                Int
+  eduSpendingGdpPct   Float? // 教育費対GDP比
+  publicSpendingPct   Float? // 公的支出割合
+  primaryPupilTeacher Float? // 初等教育生徒教員比
+}
+
+// ===== 学校統計 =====
+
+model SchoolStat {
+  id           String      @id @default(cuid())
+  prefectureId String
+  prefecture   Prefecture  @relation(fields: [prefectureId], references: [id])
+  year         Int
+  schoolLevel  SchoolLevel
+  schoolCount  Int // 学校数
+  studentCount Int // 児童生徒数
+  classCount   Int? // 学級数
+  avgClassSize Float? // 平均クラスサイズ
+
+  @@index([prefectureId])
+  @@index([year])
+}
+
+enum SchoolLevel {
+  ELEMENTARY // 小学校
+  JUNIOR_HIGH // 中学校
+  HIGH_SCHOOL // 高等学校
+  SPECIAL_NEEDS // 特別支援学校
+  KINDERGARTEN // 幼稚園
+  COMBINED // 義務教育学校・中等教育学校
+}
+
+model SchoolIssue {
+  id           String       @id @default(cuid())
+  prefectureId String?
+  year         Int
+  issueType    IssueType
+  count        Int // 件数
+  rate         Float? // 千人あたり率
+  schoolLevel  SchoolLevel?
+
+  @@index([year])
+}
+
+enum IssueType {
+  TRUANCY // 不登校
+  BULLYING // いじめ認知件数
+  VIOLENCE // 暴力行為
+  DROPOUT // 中途退学
+}
+
+// ===== 学習指導要領 =====
+
+model CurriculumGuideline {
+  id            String      @id @default(cuid())
+  version       String // "2017改訂", "2008改訂"
+  schoolLevel   SchoolLevel
+  effectiveYear Int // 施行年
+  subjects      Subject[]
+}
+
+model Subject {
+  id          String              @id @default(cuid())
+  guidelineId String
+  guideline   CurriculumGuideline @relation(fields: [guidelineId], references: [id])
+  name        String // "算数", "数学", "英語"
+  gradeStart  Int // 開始学年
+  gradeEnd    Int // 終了学年
+  objectives  String // 目標（テキスト）
+  contents    SubjectContent[]
+
+  @@index([guidelineId])
+}
+
+model SubjectContent {
+  id          String  @id @default(cuid())
+  subjectId   String
+  subject     Subject @relation(fields: [subjectId], references: [id])
+  grade       Int // 学年
+  area        String // 領域（"数と計算", "図形" 等）
+  description String // 内容記述
+  isNew       Boolean @default(false) // 新設内容フラグ
+  isRemoved   Boolean @default(false) // 削除内容フラグ
+
+  @@index([subjectId])
+}
+
+// ===== 大学 =====
+
+model University {
+  id           String         @id @default(cuid())
+  name         String // "東京大学"
+  type         UniversityType
+  prefectureId String
+  prefecture   Prefecture     @relation(fields: [prefectureId], references: [id])
+  foundedYear  Int?
+  website      String?
+  departments  Department[]
+  metrics      UniMetric[]
+
+  @@index([prefectureId])
+}
+
+enum UniversityType {
+  NATIONAL // 国立
+  PUBLIC // 公立
+  PRIVATE // 私立
+}
+
+model Department {
+  id           String     @id @default(cuid())
+  universityId String
+  university   University @relation(fields: [universityId], references: [id])
+  name         String // "工学部"
+  capacity     Int? // 入学定員
+  applicants   Int? // 志願者数
+  field        String? // 分野（"理工", "人文" 等）
+
+  @@index([universityId])
+}
+
+model UniMetric {
+  id              String     @id @default(cuid())
+  universityId    String
+  university      University @relation(fields: [universityId], references: [id])
+  year            Int
+  enrollmentTotal Int? // 在籍学生数
+  graduationRate  Float? // 卒業率
+  employmentRate  Float? // 就職率
+  gradSchoolRate  Float? // 大学院進学率
+  tuitionAnnual   Int? // 年間学費（円）
+
+  @@index([universityId])
+  @@index([year])
+}
+
+// ===== 教員 =====
+
+model TeacherStat {
+  id                String      @id @default(cuid())
+  prefectureId      String
+  prefecture        Prefecture  @relation(fields: [prefectureId], references: [id])
+  year              Int
+  schoolLevel       SchoolLevel
+  teacherCount      Int // 教員数
+  femaleRatio       Float? // 女性比率
+  avgAge            Float? // 平均年齢
+  pupilTeacherRatio Float? // 生徒教員比率
+  nonRegularRatio   Float? // 非正規比率
+
+  @@index([prefectureId])
+  @@index([year])
+}
+
+model TeacherWorkload {
+  id                  String      @id @default(cuid())
+  year                Int
+  schoolLevel         SchoolLevel
+  weeklyHoursTotal    Float? // 週間勤務時間
+  weeklyHoursTeaching Float? // うち授業時間
+  weeklyHoursAdmin    Float? // うち事務時間
+  source              String? // "TALIS 2018" 等
+}
+
+model TeacherRecruitment {
+  id           String      @id @default(cuid())
+  prefectureId String?
+  year         Int
+  schoolLevel  SchoolLevel
+  applicants   Int? // 受験者数
+  hires        Int? // 採用者数
+  ratio        Float? // 採用倍率
+
+  @@index([year])
+}
+
+// ===== 政党教育政策 =====
+
+model EduPolicyStance {
+  id       String            @id @default(cuid())
+  partyId  String
+  party    Party             @relation(fields: [partyId], references: [id])
+  category EduPolicyCategory
+  stance   String // スタンス概要
+  detail   String? // 詳細説明
+  source   String? // マニフェストURL
+  year     Int? // マニフェスト年
+
+  @@index([partyId])
+}
+
+enum EduPolicyCategory {
+  TEACHER_POLICY // 教員政策
+  TUITION_SUPPORT // 学費・就学支援
+  ICT_EDUCATION // ICT・デジタル教育
+  TRUANCY_SUPPORT // 不登校対策
+  SPECIAL_NEEDS // 特別支援教育
+  EARLY_CHILDHOOD // 幼児教育
+  HIGHER_EDUCATION_REFORM // 大学改革
+  CURRICULUM // カリキュラム・学力
+  SCHOOL_SAFETY // 学校安全
+  INTERNATIONAL // 国際教育・英語
+  LIFELONG_LEARNING // 生涯学習
+  EDUCATION_FINANCE // 教育財政
+}

@@ -1,0 +1,459 @@
+[
+  {
+    "name": "東京大学",
+    "type": "NATIONAL",
+    "prefectureCode": "13",
+    "foundedYear": 1877,
+    "website": "https://www.u-tokyo.ac.jp/",
+    "departments": [
+      { "name": "法学部", "capacity": 415, "field": "LAW" },
+      { "name": "経済学部", "capacity": 340, "field": "ECONOMICS" },
+      { "name": "文学部", "capacity": 350, "field": "HUMANITIES" },
+      { "name": "理学部", "capacity": 305, "field": "SCIENCE" },
+      { "name": "工学部", "capacity": 955, "field": "ENGINEERING" },
+      { "name": "医学部", "capacity": 220, "field": "MEDICINE" },
+      { "name": "農学部", "capacity": 290, "field": "AGRICULTURE" },
+      { "name": "教育学部", "capacity": 105, "field": "EDUCATION" },
+      { "name": "教養学部", "capacity": 195, "field": "LIBERAL_ARTS" },
+      { "name": "薬学部", "capacity": 80, "field": "PHARMACY" }
+    ],
+    "metrics": [
+      { "year": 2023, "enrollmentTotal": 28171, "employmentRate": 56.2, "gradSchoolRate": 38.5, "tuitionAnnual": 535800 },
+      { "year": 2024, "enrollmentTotal": 28053, "employmentRate": 55.8, "gradSchoolRate": 39.0, "tuitionAnnual": 535800 }
+    ]
+  },
+  {
+    "name": "京都大学",
+    "type": "NATIONAL",
+    "prefectureCode": "26",
+    "foundedYear": 1897,
+    "website": "https://www.kyoto-u.ac.jp/",
+    "departments": [
+      { "name": "文学部", "capacity": 220, "field": "HUMANITIES" },
+      { "name": "法学部", "capacity": 330, "field": "LAW" },
+      { "name": "経済学部", "capacity": 240, "field": "ECONOMICS" },
+      { "name": "理学部", "capacity": 311, "field": "SCIENCE" },
+      { "name": "工学部", "capacity": 955, "field": "ENGINEERING" },
+      { "name": "医学部", "capacity": 250, "field": "MEDICINE" },
+      { "name": "農学部", "capacity": 300, "field": "AGRICULTURE" },
+      { "name": "教育学部", "capacity": 60, "field": "EDUCATION" },
+      { "name": "薬学部", "capacity": 80, "field": "PHARMACY" },
+      { "name": "総合人間学部", "capacity": 120, "field": "LIBERAL_ARTS" }
+    ],
+    "metrics": [
+      { "year": 2023, "enrollmentTotal": 22608, "employmentRate": 52.3, "gradSchoolRate": 42.1, "tuitionAnnual": 535800 },
+      { "year": 2024, "enrollmentTotal": 22520, "employmentRate": 51.8, "gradSchoolRate": 42.5, "tuitionAnnual": 535800 }
+    ]
+  },
+  {
+    "name": "大阪大学",
+    "type": "NATIONAL",
+    "prefectureCode": "27",
+    "foundedYear": 1931,
+    "website": "https://www.osaka-u.ac.jp/",
+    "departments": [
+      { "name": "文学部", "capacity": 165, "field": "HUMANITIES" },
+      { "name": "法学部", "capacity": 170, "field": "LAW" },
+      { "name": "経済学部", "capacity": 220, "field": "ECONOMICS" },
+      { "name": "理学部", "capacity": 255, "field": "SCIENCE" },
+      { "name": "工学部", "capacity": 820, "field": "ENGINEERING" },
+      { "name": "医学部", "capacity": 220, "field": "MEDICINE" },
+      { "name": "歯学部", "capacity": 53, "field": "DENTISTRY" },
+      { "name": "薬学部", "capacity": 80, "field": "PHARMACY" },
+      { "name": "基礎工学部", "capacity": 435, "field": "ENGINEERING" },
+      { "name": "人間科学部", "capacity": 137, "field": "HUMAN_SCIENCES" },
+      { "name": "外国語学部", "capacity": 580, "field": "FOREIGN_LANGUAGES" }
+    ],
+    "metrics": [
+      { "year": 2023, "enrollmentTotal": 23168, "employmentRate": 58.5, "gradSchoolRate": 36.2, "tuitionAnnual": 535800 },
+      { "year": 2024, "enrollmentTotal": 23050, "employmentRate": 58.0, "gradSchoolRate": 36.8, "tuitionAnnual": 535800 }
+    ]
+  },
+  {
+    "name": "東北大学",
+    "type": "NATIONAL",
+    "prefectureCode": "04",
+    "foundedYear": 1907,
+    "website": "https://www.tohoku.ac.jp/",
+    "departments": [
+      { "name": "文学部", "capacity": 210, "field": "HUMANITIES" },
+      { "name": "法学部", "capacity": 160, "field": "LAW" },
+      { "name": "経済学部", "capacity": 260, "field": "ECONOMICS" },
+      { "name": "理学部", "capacity": 324, "field": "SCIENCE" },
+      { "name": "工学部", "capacity": 810, "field": "ENGINEERING" },
+      { "name": "医学部", "capacity": 235, "field": "MEDICINE" },
+      { "name": "農学部", "capacity": 150, "field": "AGRICULTURE" },
+      { "name": "教育学部", "capacity": 70, "field": "EDUCATION" }
+    ],
+    "metrics": [
+      { "year": 2023, "enrollmentTotal": 17885, "employmentRate": 54.0, "gradSchoolRate": 40.3, "tuitionAnnual": 535800 },
+      { "year": 2024, "enrollmentTotal": 17800, "employmentRate": 53.5, "gradSchoolRate": 40.8, "tuitionAnnual": 535800 }
+    ]
+  },
+  {
+    "name": "名古屋大学",
+    "type": "NATIONAL",
+    "prefectureCode": "23",
+    "foundedYear": 1939,
+    "website": "https://www.nagoya-u.ac.jp/",
+    "departments": [
+      { "name": "文学部", "capacity": 125, "field": "HUMANITIES" },
+      { "name": "法学部", "capacity": 150, "field": "LAW" },
+      { "name": "経済学部", "capacity": 205, "field": "ECONOMICS" },
+      { "name": "理学部", "capacity": 270, "field": "SCIENCE" },
+      { "name": "工学部", "capacity": 740, "field": "ENGINEERING" },
+      { "name": "医学部", "capacity": 200, "field": "MEDICINE" },
+      { "name": "農学部", "capacity": 170, "field": "AGRICULTURE" },
+      { "name": "情報学部", "capacity": 135, "field": "INFORMATION_SCIENCE" },
+      { "name": "教育学部", "capacity": 65, "field": "EDUCATION" }
+    ],
+    "metrics": [
+      { "year": 2023, "enrollmentTotal": 15820, "employmentRate": 56.8, "gradSchoolRate": 38.0, "tuitionAnnual": 535800 },
+      { "year": 2024, "enrollmentTotal": 15750, "employmentRate": 56.3, "gradSchoolRate": 38.5, "tuitionAnnual": 535800 }
+    ]
+  },
+  {
+    "name": "九州大学",
+    "type": "NATIONAL",
+    "prefectureCode": "40",
+    "foundedYear": 1911,
+    "website": "https://www.kyushu-u.ac.jp/",
+    "departments": [
+      { "name": "文学部", "capacity": 151, "field": "HUMANITIES" },
+      { "name": "法学部", "capacity": 189, "field": "LAW" },
+      { "name": "経済学部", "capacity": 226, "field": "ECONOMICS" },
+      { "name": "理学部", "capacity": 260, "field": "SCIENCE" },
+      { "name": "工学部", "capacity": 757, "field": "ENGINEERING" },
+      { "name": "医学部", "capacity": 210, "field": "MEDICINE" },
+      { "name": "農学部", "capacity": 226, "field": "AGRICULTURE" },
+      { "name": "芸術工学部", "capacity": 187, "field": "DESIGN" },
+      { "name": "共創学部", "capacity": 105, "field": "INTERDISCIPLINARY" }
+    ],
+    "metrics": [
+      { "year": 2023, "enrollmentTotal": 18665, "employmentRate": 57.2, "gradSchoolRate": 37.5, "tuitionAnnual": 535800 },
+      { "year": 2024, "enrollmentTotal": 18580, "employmentRate": 56.8, "gradSchoolRate": 38.0, "tuitionAnnual": 535800 }
+    ]
+  },
+  {
+    "name": "北海道大学",
+    "type": "NATIONAL",
+    "prefectureCode": "01",
+    "foundedYear": 1876,
+    "website": "https://www.hokudai.ac.jp/",
+    "departments": [
+      { "name": "文学部", "capacity": 185, "field": "HUMANITIES" },
+      { "name": "法学部", "capacity": 200, "field": "LAW" },
+      { "name": "経済学部", "capacity": 190, "field": "ECONOMICS" },
+      { "name": "理学部", "capacity": 300, "field": "SCIENCE" },
+      { "name": "工学部", "capacity": 670, "field": "ENGINEERING" },
+      { "name": "医学部", "capacity": 207, "field": "MEDICINE" },
+      { "name": "農学部", "capacity": 215, "field": "AGRICULTURE" },
+      { "name": "獣医学部", "capacity": 40, "field": "VETERINARY" },
+      { "name": "水産学部", "capacity": 210, "field": "FISHERIES" },
+      { "name": "教育学部", "capacity": 50, "field": "EDUCATION" }
+    ],
+    "metrics": [
+      { "year": 2023, "enrollmentTotal": 17962, "employmentRate": 55.5, "gradSchoolRate": 38.0, "tuitionAnnual": 535800 },
+      { "year": 2024, "enrollmentTotal": 17880, "employmentRate": 55.0, "gradSchoolRate": 38.5, "tuitionAnnual": 535800 }
+    ]
+  },
+  {
+    "name": "東京工業大学",
+    "type": "NATIONAL",
+    "prefectureCode": "13",
+    "foundedYear": 1881,
+    "website": "https://www.titech.ac.jp/",
+    "departments": [
+      { "name": "理学院", "capacity": 151, "field": "SCIENCE" },
+      { "name": "工学院", "capacity": 348, "field": "ENGINEERING" },
+      { "name": "物質理工学院", "capacity": 183, "field": "MATERIALS_SCIENCE" },
+      { "name": "情報理工学院", "capacity": 151, "field": "INFORMATION_SCIENCE" },
+      { "name": "生命理工学院", "capacity": 150, "field": "LIFE_SCIENCE" },
+      { "name": "環境・社会理工学院", "capacity": 165, "field": "ENVIRONMENTAL_SCIENCE" }
+    ],
+    "metrics": [
+      { "year": 2023, "enrollmentTotal": 10044, "employmentRate": 38.5, "gradSchoolRate": 56.2, "tuitionAnnual": 535800 },
+      { "year": 2024, "enrollmentTotal": 10020, "employmentRate": 38.0, "gradSchoolRate": 57.0, "tuitionAnnual": 535800 }
+    ]
+  },
+  {
+    "name": "一橋大学",
+    "type": "NATIONAL",
+    "prefectureCode": "13",
+    "foundedYear": 1875,
+    "website": "https://www.hit-u.ac.jp/",
+    "departments": [
+      { "name": "商学部", "capacity": 275, "field": "COMMERCE" },
+      { "name": "経済学部", "capacity": 275, "field": "ECONOMICS" },
+      { "name": "法学部", "capacity": 170, "field": "LAW" },
+      { "name": "社会学部", "capacity": 230, "field": "SOCIAL_SCIENCE" },
+      { "name": "ソーシャル・データサイエンス学部", "capacity": 60, "field": "DATA_SCIENCE" }
+    ],
+    "metrics": [
+      { "year": 2023, "enrollmentTotal": 6349, "employmentRate": 72.5, "gradSchoolRate": 18.5, "tuitionAnnual": 535800 },
+      { "year": 2024, "enrollmentTotal": 6380, "employmentRate": 72.0, "gradSchoolRate": 19.0, "tuitionAnnual": 535800 }
+    ]
+  },
+  {
+    "name": "筑波大学",
+    "type": "NATIONAL",
+    "prefectureCode": "08",
+    "foundedYear": 1973,
+    "website": "https://www.tsukuba.ac.jp/",
+    "departments": [
+      { "name": "人文・文化学群", "capacity": 240, "field": "HUMANITIES" },
+      { "name": "社会・国際学群", "capacity": 200, "field": "SOCIAL_SCIENCE" },
+      { "name": "理工学群", "capacity": 540, "field": "SCIENCE_ENGINEERING" },
+      { "name": "情報学群", "capacity": 230, "field": "INFORMATION_SCIENCE" },
+      { "name": "医学群", "capacity": 289, "field": "MEDICINE" },
+      { "name": "体育専門学群", "capacity": 240, "field": "PHYSICAL_EDUCATION" },
+      { "name": "芸術専門学群", "capacity": 100, "field": "ART" },
+      { "name": "生命環境学群", "capacity": 250, "field": "LIFE_ENVIRONMENTAL" },
+      { "name": "人間学群", "capacity": 120, "field": "HUMAN_SCIENCES" }
+    ],
+    "metrics": [
+      { "year": 2023, "enrollmentTotal": 16193, "employmentRate": 60.2, "gradSchoolRate": 33.0, "tuitionAnnual": 535800 },
+      { "year": 2024, "enrollmentTotal": 16150, "employmentRate": 59.8, "gradSchoolRate": 33.5, "tuitionAnnual": 535800 }
+    ]
+  },
+  {
+    "name": "早稲田大学",
+    "type": "PRIVATE",
+    "prefectureCode": "13",
+    "foundedYear": 1882,
+    "website": "https://www.waseda.jp/",
+    "departments": [
+      { "name": "政治経済学部", "capacity": 900, "field": "POLITICAL_ECONOMY" },
+      { "name": "法学部", "capacity": 740, "field": "LAW" },
+      { "name": "文学部", "capacity": 660, "field": "HUMANITIES" },
+      { "name": "文化構想学部", "capacity": 860, "field": "CULTURE" },
+      { "name": "商学部", "capacity": 900, "field": "COMMERCE" },
+      { "name": "基幹理工学部", "capacity": 595, "field": "SCIENCE_ENGINEERING" },
+      { "name": "創造理工学部", "capacity": 595, "field": "ENGINEERING" },
+      { "name": "先進理工学部", "capacity": 540, "field": "ADVANCED_SCIENCE" },
+      { "name": "社会科学部", "capacity": 630, "field": "SOCIAL_SCIENCE" },
+      { "name": "教育学部", "capacity": 960, "field": "EDUCATION" },
+      { "name": "人間科学部", "capacity": 560, "field": "HUMAN_SCIENCES" },
+      { "name": "スポーツ科学部", "capacity": 400, "field": "SPORTS_SCIENCE" },
+      { "name": "国際教養学部", "capacity": 600, "field": "INTERNATIONAL_LIBERAL_ARTS" }
+    ],
+    "metrics": [
+      { "year": 2023, "enrollmentTotal": 41965, "employmentRate": 75.8, "gradSchoolRate": 14.2, "tuitionAnnual": 1213000 },
+      { "year": 2024, "enrollmentTotal": 41800, "employmentRate": 76.0, "gradSchoolRate": 14.5, "tuitionAnnual": 1213000 }
+    ]
+  },
+  {
+    "name": "慶應義塾大学",
+    "type": "PRIVATE",
+    "prefectureCode": "13",
+    "foundedYear": 1858,
+    "website": "https://www.keio.ac.jp/",
+    "departments": [
+      { "name": "文学部", "capacity": 800, "field": "HUMANITIES" },
+      { "name": "経済学部", "capacity": 1200, "field": "ECONOMICS" },
+      { "name": "法学部", "capacity": 1200, "field": "LAW" },
+      { "name": "商学部", "capacity": 1000, "field": "COMMERCE" },
+      { "name": "理工学部", "capacity": 932, "field": "SCIENCE_ENGINEERING" },
+      { "name": "医学部", "capacity": 110, "field": "MEDICINE" },
+      { "name": "総合政策学部", "capacity": 425, "field": "POLICY_MANAGEMENT" },
+      { "name": "環境情報学部", "capacity": 425, "field": "ENVIRONMENTAL_INFORMATION" },
+      { "name": "薬学部", "capacity": 210, "field": "PHARMACY" },
+      { "name": "看護医療学部", "capacity": 100, "field": "NURSING" }
+    ],
+    "metrics": [
+      { "year": 2023, "enrollmentTotal": 33411, "employmentRate": 78.2, "gradSchoolRate": 14.8, "tuitionAnnual": 1340000 },
+      { "year": 2024, "enrollmentTotal": 33300, "employmentRate": 78.5, "gradSchoolRate": 15.0, "tuitionAnnual": 1340000 }
+    ]
+  },
+  {
+    "name": "上智大学",
+    "type": "PRIVATE",
+    "prefectureCode": "13",
+    "foundedYear": 1913,
+    "website": "https://www.sophia.ac.jp/",
+    "departments": [
+      { "name": "神学部", "capacity": 40, "field": "THEOLOGY" },
+      { "name": "文学部", "capacity": 510, "field": "HUMANITIES" },
+      { "name": "法学部", "capacity": 330, "field": "LAW" },
+      { "name": "経済学部", "capacity": 330, "field": "ECONOMICS" },
+      { "name": "外国語学部", "capacity": 500, "field": "FOREIGN_LANGUAGES" },
+      { "name": "理工学部", "capacity": 330, "field": "SCIENCE_ENGINEERING" },
+      { "name": "総合グローバル学部", "capacity": 220, "field": "GLOBAL_STUDIES" },
+      { "name": "総合人間科学部", "capacity": 355, "field": "HUMAN_SCIENCES" },
+      { "name": "国際教養学部", "capacity": 186, "field": "INTERNATIONAL_LIBERAL_ARTS" }
+    ],
+    "metrics": [
+      { "year": 2023, "enrollmentTotal": 12518, "employmentRate": 80.5, "gradSchoolRate": 8.2, "tuitionAnnual": 1215000 },
+      { "year": 2024, "enrollmentTotal": 12480, "employmentRate": 80.8, "gradSchoolRate": 8.5, "tuitionAnnual": 1215000 }
+    ]
+  },
+  {
+    "name": "明治大学",
+    "type": "PRIVATE",
+    "prefectureCode": "13",
+    "foundedYear": 1881,
+    "website": "https://www.meiji.ac.jp/",
+    "departments": [
+      { "name": "法学部", "capacity": 920, "field": "LAW" },
+      { "name": "商学部", "capacity": 1150, "field": "COMMERCE" },
+      { "name": "政治経済学部", "capacity": 1050, "field": "POLITICAL_ECONOMY" },
+      { "name": "文学部", "capacity": 835, "field": "HUMANITIES" },
+      { "name": "理工学部", "capacity": 1090, "field": "SCIENCE_ENGINEERING" },
+      { "name": "農学部", "capacity": 555, "field": "AGRICULTURE" },
+      { "name": "経営学部", "capacity": 750, "field": "BUSINESS" },
+      { "name": "情報コミュニケーション学部", "capacity": 520, "field": "INFORMATION_COMMUNICATION" },
+      { "name": "国際日本学部", "capacity": 400, "field": "INTERNATIONAL_JAPANESE" },
+      { "name": "総合数理学部", "capacity": 275, "field": "MATHEMATICAL_SCIENCE" }
+    ],
+    "metrics": [
+      { "year": 2023, "enrollmentTotal": 32460, "employmentRate": 82.5, "gradSchoolRate": 6.8, "tuitionAnnual": 1174000 },
+      { "year": 2024, "enrollmentTotal": 32300, "employmentRate": 82.8, "gradSchoolRate": 7.0, "tuitionAnnual": 1174000 }
+    ]
+  },
+  {
+    "name": "同志社大学",
+    "type": "PRIVATE",
+    "prefectureCode": "26",
+    "foundedYear": 1875,
+    "website": "https://www.doshisha.ac.jp/",
+    "departments": [
+      { "name": "神学部", "capacity": 63, "field": "THEOLOGY" },
+      { "name": "文学部", "capacity": 700, "field": "HUMANITIES" },
+      { "name": "法学部", "capacity": 893, "field": "LAW" },
+      { "name": "経済学部", "capacity": 893, "field": "ECONOMICS" },
+      { "name": "商学部", "capacity": 893, "field": "COMMERCE" },
+      { "name": "理工学部", "capacity": 733, "field": "SCIENCE_ENGINEERING" },
+      { "name": "社会学部", "capacity": 442, "field": "SOCIAL_SCIENCE" },
+      { "name": "政策学部", "capacity": 420, "field": "POLICY_STUDIES" },
+      { "name": "グローバル・コミュニケーション学部", "capacity": 158, "field": "GLOBAL_COMMUNICATION" },
+      { "name": "グローバル地域文化学部", "capacity": 190, "field": "GLOBAL_REGIONAL_CULTURE" }
+    ],
+    "metrics": [
+      { "year": 2023, "enrollmentTotal": 26180, "employmentRate": 81.2, "gradSchoolRate": 7.5, "tuitionAnnual": 1140000 },
+      { "year": 2024, "enrollmentTotal": 26050, "employmentRate": 81.5, "gradSchoolRate": 7.8, "tuitionAnnual": 1140000 }
+    ]
+  },
+  {
+    "name": "立命館大学",
+    "type": "PRIVATE",
+    "prefectureCode": "26",
+    "foundedYear": 1900,
+    "website": "https://www.ritsumei.ac.jp/",
+    "departments": [
+      { "name": "法学部", "capacity": 810, "field": "LAW" },
+      { "name": "経済学部", "capacity": 760, "field": "ECONOMICS" },
+      { "name": "経営学部", "capacity": 795, "field": "BUSINESS" },
+      { "name": "文学部", "capacity": 1015, "field": "HUMANITIES" },
+      { "name": "産業社会学部", "capacity": 810, "field": "SOCIAL_SCIENCE" },
+      { "name": "理工学部", "capacity": 954, "field": "SCIENCE_ENGINEERING" },
+      { "name": "情報理工学部", "capacity": 475, "field": "INFORMATION_SCIENCE" },
+      { "name": "国際関係学部", "capacity": 335, "field": "INTERNATIONAL_RELATIONS" },
+      { "name": "映像学部", "capacity": 150, "field": "FILM" },
+      { "name": "食マネジメント学部", "capacity": 320, "field": "FOOD_MANAGEMENT" }
+    ],
+    "metrics": [
+      { "year": 2023, "enrollmentTotal": 32561, "employmentRate": 83.0, "gradSchoolRate": 5.8, "tuitionAnnual": 1116000 },
+      { "year": 2024, "enrollmentTotal": 32400, "employmentRate": 83.3, "gradSchoolRate": 6.0, "tuitionAnnual": 1116000 }
+    ]
+  },
+  {
+    "name": "関西大学",
+    "type": "PRIVATE",
+    "prefectureCode": "27",
+    "foundedYear": 1886,
+    "website": "https://www.kansai-u.ac.jp/",
+    "departments": [
+      { "name": "法学部", "capacity": 715, "field": "LAW" },
+      { "name": "文学部", "capacity": 770, "field": "HUMANITIES" },
+      { "name": "経済学部", "capacity": 726, "field": "ECONOMICS" },
+      { "name": "商学部", "capacity": 726, "field": "COMMERCE" },
+      { "name": "社会学部", "capacity": 792, "field": "SOCIAL_SCIENCE" },
+      { "name": "総合情報学部", "capacity": 500, "field": "INFORMATION_SCIENCE" },
+      { "name": "システム理工学部", "capacity": 501, "field": "ENGINEERING" },
+      { "name": "化学生命工学部", "capacity": 347, "field": "CHEMICAL_ENGINEERING" },
+      { "name": "環境都市工学部", "capacity": 325, "field": "ENVIRONMENTAL_ENGINEERING" },
+      { "name": "外国語学部", "capacity": 165, "field": "FOREIGN_LANGUAGES" }
+    ],
+    "metrics": [
+      { "year": 2023, "enrollmentTotal": 28624, "employmentRate": 84.5, "gradSchoolRate": 4.2, "tuitionAnnual": 1097000 },
+      { "year": 2024, "enrollmentTotal": 28500, "employmentRate": 84.8, "gradSchoolRate": 4.5, "tuitionAnnual": 1097000 }
+    ]
+  },
+  {
+    "name": "日本大学",
+    "type": "PRIVATE",
+    "prefectureCode": "13",
+    "foundedYear": 1889,
+    "website": "https://www.nihon-u.ac.jp/",
+    "departments": [
+      { "name": "法学部", "capacity": 1333, "field": "LAW" },
+      { "name": "文理学部", "capacity": 1960, "field": "HUMANITIES_SCIENCE" },
+      { "name": "経済学部", "capacity": 1303, "field": "ECONOMICS" },
+      { "name": "商学部", "capacity": 1298, "field": "COMMERCE" },
+      { "name": "理工学部", "capacity": 2070, "field": "SCIENCE_ENGINEERING" },
+      { "name": "生産工学部", "capacity": 1540, "field": "INDUSTRIAL_ENGINEERING" },
+      { "name": "工学部", "capacity": 1010, "field": "ENGINEERING" },
+      { "name": "医学部", "capacity": 120, "field": "MEDICINE" },
+      { "name": "芸術学部", "capacity": 1000, "field": "ART" },
+      { "name": "生物資源科学部", "capacity": 1520, "field": "BIORESOURCE" },
+      { "name": "薬学部", "capacity": 244, "field": "PHARMACY" },
+      { "name": "危機管理学部", "capacity": 300, "field": "RISK_MANAGEMENT" },
+      { "name": "スポーツ科学部", "capacity": 300, "field": "SPORTS_SCIENCE" }
+    ],
+    "metrics": [
+      { "year": 2023, "enrollmentTotal": 67933, "employmentRate": 82.0, "gradSchoolRate": 5.5, "tuitionAnnual": 1100000 },
+      { "year": 2024, "enrollmentTotal": 67500, "employmentRate": 82.2, "gradSchoolRate": 5.7, "tuitionAnnual": 1100000 }
+    ]
+  },
+  {
+    "name": "東洋大学",
+    "type": "PRIVATE",
+    "prefectureCode": "13",
+    "foundedYear": 1887,
+    "website": "https://www.toyo.ac.jp/",
+    "departments": [
+      { "name": "文学部", "capacity": 620, "field": "HUMANITIES" },
+      { "name": "経済学部", "capacity": 580, "field": "ECONOMICS" },
+      { "name": "経営学部", "capacity": 600, "field": "BUSINESS" },
+      { "name": "法学部", "capacity": 500, "field": "LAW" },
+      { "name": "社会学部", "capacity": 510, "field": "SOCIAL_SCIENCE" },
+      { "name": "理工学部", "capacity": 570, "field": "SCIENCE_ENGINEERING" },
+      { "name": "国際学部", "capacity": 400, "field": "INTERNATIONAL_STUDIES" },
+      { "name": "情報連携学部", "capacity": 400, "field": "INFORMATION_NETWORKING" },
+      { "name": "ライフデザイン学部", "capacity": 370, "field": "LIFE_DESIGN" },
+      { "name": "総合情報学部", "capacity": 260, "field": "INFORMATION_SCIENCE" }
+    ],
+    "metrics": [
+      { "year": 2023, "enrollmentTotal": 30420, "employmentRate": 85.5, "gradSchoolRate": 3.2, "tuitionAnnual": 1030000 },
+      { "year": 2024, "enrollmentTotal": 30300, "employmentRate": 85.8, "gradSchoolRate": 3.5, "tuitionAnnual": 1030000 }
+    ]
+  },
+  {
+    "name": "近畿大学",
+    "type": "PRIVATE",
+    "prefectureCode": "27",
+    "foundedYear": 1925,
+    "website": "https://www.kindai.ac.jp/",
+    "departments": [
+      { "name": "法学部", "capacity": 500, "field": "LAW" },
+      { "name": "経済学部", "capacity": 580, "field": "ECONOMICS" },
+      { "name": "経営学部", "capacity": 635, "field": "BUSINESS" },
+      { "name": "文芸学部", "capacity": 530, "field": "HUMANITIES_ART" },
+      { "name": "理工学部", "capacity": 940, "field": "SCIENCE_ENGINEERING" },
+      { "name": "建築学部", "capacity": 280, "field": "ARCHITECTURE" },
+      { "name": "薬学部", "capacity": 300, "field": "PHARMACY" },
+      { "name": "医学部", "capacity": 112, "field": "MEDICINE" },
+      { "name": "農学部", "capacity": 340, "field": "AGRICULTURE" },
+      { "name": "生物理工学部", "capacity": 345, "field": "BIO_ENGINEERING" },
+      { "name": "工学部", "capacity": 520, "field": "ENGINEERING" },
+      { "name": "産業理工学部", "capacity": 475, "field": "INDUSTRIAL_ENGINEERING" },
+      { "name": "総合社会学部", "capacity": 510, "field": "SOCIAL_SCIENCE" },
+      { "name": "国際学部", "capacity": 500, "field": "INTERNATIONAL_STUDIES" },
+      { "name": "情報学部", "capacity": 330, "field": "INFORMATION_SCIENCE" }
+    ],
+    "metrics": [
+      { "year": 2023, "enrollmentTotal": 33125, "employmentRate": 86.0, "gradSchoolRate": 4.0, "tuitionAnnual": 1102000 },
+      { "year": 2024, "enrollmentTotal": 33000, "employmentRate": 86.3, "gradSchoolRate": 4.2, "tuitionAnnual": 1102000 }
+    ]
+  }
+]

@@ -1,0 +1,29 @@
+{
+  "name": "@ojetp/ingestion",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "prefectures": "tsx src/prefectures/seed-prefectures.ts",
+    "parties": "tsx src/parties/seed-parties.ts",
+    "budget": "tsx src/budget/seed-edu-budgets.ts",
+    "programs": "tsx src/programs/seed-edu-programs.ts",
+    "oecd": "tsx src/oecd/seed-oecd.ts",
+    "schools": "tsx src/schools/seed-school-stats.ts && tsx src/schools/seed-school-issues.ts",
+    "curriculum": "tsx src/curriculum/seed-curriculum.ts",
+    "universities": "tsx src/universities/seed-universities.ts",
+    "teachers": "tsx src/teachers/seed-teacher-stats.ts && tsx src/teachers/seed-teacher-workload.ts && tsx src/teachers/seed-teacher-recruitment.ts",
+    "policy": "tsx src/policy/seed-edu-stances.ts",
+    "lint": "biome check .",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@ojetp/db": "workspace:*"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.0.0",
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.9.0"
+  }
+}

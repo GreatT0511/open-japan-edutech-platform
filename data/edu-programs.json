@@ -1,0 +1,92 @@
+[
+  {
+    "name": "GIGAスクール構想",
+    "description": "全国の児童生徒1人1台端末と高速ネットワークの一体的整備。義務教育段階のICT環境を抜本的に整備し、個別最適化された学びを実現する。",
+    "category": "ICT_EDUCATION",
+    "startYear": 2019,
+    "endYear": null,
+    "budgetBillions": 4819,
+    "url": "https://www.mext.go.jp/a_menu/other/index_00001.htm"
+  },
+  {
+    "name": "高等学校等就学支援金制度（高校無償化）",
+    "description": "高等学校等における教育に係る経済的負担の軽減を図るため、授業料に充てる就学支援金を支給。2020年より私立高校の実質無償化を実施。",
+    "category": "TUITION_SUPPORT",
+    "startYear": 2010,
+    "endYear": null,
+    "budgetBillions": 4363,
+    "url": "https://www.mext.go.jp/a_menu/shotou/mushouka/index.htm"
+  },
+  {
+    "name": "幼児教育・保育の無償化",
+    "description": "3歳から5歳までの全ての子ども、及び0歳から2歳までの住民税非課税世帯の子どもの幼稚園、保育所、認定こども園等の利用料を無償化。",
+    "category": "TUITION_SUPPORT",
+    "startYear": 2019,
+    "endYear": null,
+    "budgetBillions": 8858,
+    "url": "https://www.mext.go.jp/a_menu/shotou/youchien/index.htm"
+  },
+  {
+    "name": "学校施設環境改善交付金",
+    "description": "公立学校施設の耐震化、老朽化対策、バリアフリー化、空調設備整備等の環境改善を支援する交付金。",
+    "category": "FACILITY",
+    "startYear": 2011,
+    "endYear": null,
+    "budgetBillions": 688,
+    "url": "https://www.mext.go.jp/a_menu/shotou/zyosei/index.htm"
+  },
+  {
+    "name": "科学技術振興費",
+    "description": "科学研究費助成事業（科研費）、戦略的創造研究推進事業、若手研究者支援等を通じた基礎研究から応用研究までの振興。",
+    "category": "SCIENCE_TECHNOLOGY",
+    "startYear": 1995,
+    "endYear": null,
+    "budgetBillions": 9978,
+    "url": "https://www.mext.go.jp/a_menu/shinkou/index.htm"
+  },
+  {
+    "name": "奨学金制度改革（給付型奨学金の創設・拡充）",
+    "description": "2017年度に給付型奨学金を創設。2020年度より高等教育の修学支援新制度として授業料等減免と給付型奨学金を大幅拡充。2024年度より多子世帯・理工農系への支援拡大。",
+    "category": "TUITION_SUPPORT",
+    "startYear": 2017,
+    "endYear": null,
+    "budgetBillions": 1510,
+    "url": "https://www.jasso.go.jp/shogakukin/index.html"
+  },
+  {
+    "name": "デジタル教科書推進事業",
+    "description": "学習者用デジタル教科書の普及促進。2024年度より小学5年生から中学3年生の英語でデジタル教科書を導入。段階的に他教科にも拡大予定。",
+    "category": "ICT_EDUCATION",
+    "startYear": 2021,
+    "endYear": null,
+    "budgetBillions": 76,
+    "url": "https://www.mext.go.jp/a_menu/shotou/kyoukasho/digital/index.htm"
+  },
+  {
+    "name": "小学校35人学級の計画的整備",
+    "description": "公立小学校の学級編制の標準を40人から35人に引き下げ。2021年度の2年生から段階的に実施し、2025年度に全学年で完了予定。",
+    "category": "CLASS_SIZE",
+    "startYear": 2021,
+    "endYear": 2025,
+    "budgetBillions": null,
+    "url": "https://www.mext.go.jp/a_menu/shotou/hensei/index.htm"
+  },
+  {
+    "name": "部活動の地域移行",
+    "description": "休日の中学校部活動を地域のスポーツクラブや文化芸術団体等に段階的に移行。教員の働き方改革と持続可能な部活動環境の構築を目指す。",
+    "category": "TEACHER_POLICY",
+    "startYear": 2023,
+    "endYear": 2025,
+    "budgetBillions": 52,
+    "url": "https://www.mext.go.jp/sports/b_menu/shingi/001_index/toushin/1420653_00005.htm"
+  },
+  {
+    "name": "コミュニティ・スクール（学校運営協議会制度）推進",
+    "description": "保護者や地域住民が学校運営に参画するコミュニティ・スクールの全国展開を推進。2022年度に努力義務化。導入率は2023年度で52.3%。",
+    "category": "SCHOOL_GOVERNANCE",
+    "startYear": 2004,
+    "endYear": null,
+    "budgetBillions": 8,
+    "url": "https://www.mext.go.jp/a_menu/shotou/community/index.htm"
+  }
+]

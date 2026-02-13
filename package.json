@@ -1,0 +1,41 @@
+{
+  "name": "open-japan-edutech-platform",
+  "version": "0.1.0",
+  "private": true,
+  "license": "AGPL-3.0",
+  "packageManager": "pnpm@10.6.2",
+  "engines": {
+    "node": ">=20"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "@prisma/client",
+      "@prisma/engines",
+      "prisma",
+      "esbuild",
+      "sharp"
+    ]
+  },
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev --parallel",
+    "lint": "turbo run lint",
+    "typecheck": "turbo run typecheck",
+    "test": "turbo run test",
+    "db:generate": "pnpm --filter @ojetp/db generate",
+    "db:push": "pnpm --filter @ojetp/db push",
+    "db:migrate": "pnpm --filter @ojetp/db migrate",
+    "db:studio": "pnpm --filter @ojetp/db studio",
+    "ingest:prefectures": "pnpm --filter @ojetp/ingestion prefectures",
+    "ingest:parties": "pnpm --filter @ojetp/ingestion parties",
+    "ingest:budget": "pnpm --filter @ojetp/ingestion budget",
+    "ingest:programs": "pnpm --filter @ojetp/ingestion programs",
+    "ingest:oecd": "pnpm --filter @ojetp/ingestion oecd",
+    "ingest:schools": "pnpm --filter @ojetp/ingestion schools",
+    "ingest:curriculum": "pnpm --filter @ojetp/ingestion curriculum",
+    "ingest:universities": "pnpm --filter @ojetp/ingestion universities",
+    "ingest:teachers": "pnpm --filter @ojetp/ingestion teachers",
+    "ingest:policy": "pnpm --filter @ojetp/ingestion policy",
+    "ingest:all": "pnpm ingest:prefectures && pnpm ingest:parties && pnpm ingest:budget && pnpm ingest:programs && pnpm ingest:oecd && pnpm ingest:schools && pnpm ingest:curriculum && pnpm ingest:universities && pnpm ingest:teachers && pnpm ingest:policy"
+  }
+}

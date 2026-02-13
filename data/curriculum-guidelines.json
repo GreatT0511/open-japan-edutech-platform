@@ -1,0 +1,156 @@
+[
+  {
+    "version": "2017年改訂",
+    "schoolLevel": "ELEMENTARY",
+    "effectiveYear": 2020,
+    "revisionDate": "2017-03-31",
+    "keyThemes": ["主体的・対話的で深い学び", "社会に開かれた教育課程", "カリキュラム・マネジメント"],
+    "subjects": [
+      {
+        "name": "国語",
+        "gradeStart": 1,
+        "gradeEnd": 6,
+        "objectives": "日常生活に必要な国語について、その特質を理解し適切に使うことができるようにする。言語活動を通じて、思考力・判断力・表現力等を育成する。",
+        "contents": [
+          { "grade": 1, "area": "知識及び技能", "description": "ひらがな・カタカナの読み書き、語彙の拡充", "isNew": false, "isRemoved": false },
+          { "grade": 3, "area": "思考力・判断力・表現力等", "description": "ローマ字の読み書き、情報の扱い方", "isNew": true, "isRemoved": false },
+          { "grade": 5, "area": "思考力・判断力・表現力等", "description": "読書活動の充実、言語活動の多様化、統計資料の読み取り", "isNew": true, "isRemoved": false }
+        ]
+      },
+      {
+        "name": "算数",
+        "gradeStart": 1,
+        "gradeEnd": 6,
+        "objectives": "数学的な見方・考え方を働かせ、数学的活動を通して、数学的に考える資質・能力を育成する。",
+        "contents": [
+          { "grade": 1, "area": "数と計算", "description": "整数の意味と表し方、加法・減法", "isNew": false, "isRemoved": false },
+          { "grade": 4, "area": "データの活用", "description": "統計的な問題解決活動（PPDACサイクル）", "isNew": true, "isRemoved": false },
+          { "grade": 5, "area": "データの活用", "description": "平均値、中央値、代表値、統計的探究プロセス", "isNew": true, "isRemoved": false },
+          { "grade": 6, "area": "データの活用", "description": "度数分布表、ヒストグラム、データの考察", "isNew": true, "isRemoved": false }
+        ]
+      },
+      {
+        "name": "理科",
+        "gradeStart": 3,
+        "gradeEnd": 6,
+        "objectives": "自然に親しみ、理科の見方・考え方を働かせ、見通しをもって観察・実験を行うことを通して、自然の事物・現象についての問題を科学的に解決するために必要な資質・能力を育成する。",
+        "contents": [
+          { "grade": 3, "area": "エネルギー", "description": "風とゴムの力の働き、光と音の性質、磁石の性質", "isNew": false, "isRemoved": false },
+          { "grade": 4, "area": "生命", "description": "人の体のつくりと運動、季節と生物", "isNew": false, "isRemoved": false },
+          { "grade": 5, "area": "地球", "description": "流れる水の働きと土地の変化、天気の変化（プログラミング的思考を取り入れた学習活動）", "isNew": true, "isRemoved": false },
+          { "grade": 6, "area": "粒子", "description": "燃焼の仕組み、水溶液の性質", "isNew": false, "isRemoved": false }
+        ]
+      },
+      {
+        "name": "社会",
+        "gradeStart": 3,
+        "gradeEnd": 6,
+        "objectives": "社会的な見方・考え方を働かせ、グローバル化する国際社会に主体的に生きる平和で民主的な国家及び社会の形成者に必要な公民としての資質・能力の基礎を育成する。",
+        "contents": [
+          { "grade": 3, "area": "地域の社会", "description": "身近な地域や市区町村の様子", "isNew": false, "isRemoved": false },
+          { "grade": 4, "area": "地域の社会", "description": "都道府県の様子、自然災害への備え", "isNew": true, "isRemoved": false },
+          { "grade": 5, "area": "我が国の国土", "description": "領土・領海の範囲、自然災害と防災", "isNew": true, "isRemoved": false },
+          { "grade": 6, "area": "我が国の政治", "description": "グローバル化する世界と日本の役割", "isNew": false, "isRemoved": false }
+        ]
+      },
+      {
+        "name": "外国語（英語）",
+        "gradeStart": 3,
+        "gradeEnd": 6,
+        "objectives": "外国語によるコミュニケーションにおける見方・考え方を働かせ、外国語活動・外国語科を通じてコミュニケーションを図る資質・能力を育成する。",
+        "contents": [
+          { "grade": 3, "area": "外国語活動", "description": "聞くこと・話すこと（やり取り・発表）を中心とした活動。年間35単位時間。", "isNew": true, "isRemoved": false },
+          { "grade": 4, "area": "外国語活動", "description": "身近な事柄について簡単な語句や基本的な表現で伝え合う活動。年間35単位時間。", "isNew": true, "isRemoved": false },
+          { "grade": 5, "area": "外国語科", "description": "聞くこと・読むこと・話すこと・書くことの4技能。年間70単位時間。教科として成績評価対象。", "isNew": true, "isRemoved": false },
+          { "grade": 6, "area": "外国語科", "description": "600〜700語程度の語彙。過去形を含む基本的表現。年間70単位時間。", "isNew": true, "isRemoved": false }
+        ]
+      },
+      {
+        "name": "プログラミング教育",
+        "gradeStart": 1,
+        "gradeEnd": 6,
+        "objectives": "プログラミング的思考を育成する。各教科等の中で、プログラミングを体験しながら論理的思考力を身に付ける。独立教科ではなく各教科横断的に実施。",
+        "contents": [
+          { "grade": 3, "area": "総合的な学習の時間等", "description": "簡単なプログラミング体験（ビジュアルプログラミング等）", "isNew": true, "isRemoved": false },
+          { "grade": 5, "area": "算数", "description": "正多角形の作図をプログラミングで行う", "isNew": true, "isRemoved": false },
+          { "grade": 6, "area": "理科", "description": "電気の利用におけるセンサーを使ったプログラミング", "isNew": true, "isRemoved": false }
+        ]
+      }
+    ]
+  },
+  {
+    "version": "2017年改訂",
+    "schoolLevel": "JUNIOR_HIGH",
+    "effectiveYear": 2021,
+    "revisionDate": "2017-03-31",
+    "keyThemes": ["主体的・対話的で深い学び", "社会に開かれた教育課程", "カリキュラム・マネジメント"],
+    "subjects": [
+      {
+        "name": "国語",
+        "gradeStart": 1,
+        "gradeEnd": 3,
+        "objectives": "言葉による見方・考え方を働かせ、言語活動を通して、国語で正確に理解し適切に表現する資質・能力を育成する。",
+        "contents": [
+          { "grade": 1, "area": "知識及び技能", "description": "語彙の拡充、情報の扱い方に関する事項の新設", "isNew": true, "isRemoved": false },
+          { "grade": 2, "area": "思考力・判断力・表現力等", "description": "論理的な文章や実用的な文章の読解", "isNew": false, "isRemoved": false },
+          { "grade": 3, "area": "思考力・判断力・表現力等", "description": "批判的読解力・情報活用能力の育成", "isNew": true, "isRemoved": false }
+        ]
+      },
+      {
+        "name": "数学",
+        "gradeStart": 1,
+        "gradeEnd": 3,
+        "objectives": "数学的な見方・考え方を働かせ、数学的活動を通して、数学的に考える資質・能力を育成する。",
+        "contents": [
+          { "grade": 1, "area": "データの活用", "description": "ヒストグラム、相対度数、累積度数（累積度数が新規追加）", "isNew": true, "isRemoved": false },
+          { "grade": 2, "area": "データの活用", "description": "四分位範囲、箱ひげ図", "isNew": true, "isRemoved": false },
+          { "grade": 3, "area": "データの活用", "description": "標本調査、母集団と標本の関係", "isNew": false, "isRemoved": false }
+        ]
+      },
+      {
+        "name": "理科",
+        "gradeStart": 1,
+        "gradeEnd": 3,
+        "objectives": "自然の事物・現象に関わり、理科の見方・考え方を働かせ、見通しをもって観察・実験を行うことなどを通して、自然の事物・現象を科学的に探究するために必要な資質・能力を育成する。",
+        "contents": [
+          { "grade": 1, "area": "エネルギー", "description": "力の働き（力の合成・分解を含む）、光・音・力による現象", "isNew": false, "isRemoved": false },
+          { "grade": 2, "area": "生命", "description": "生物の体のつくりと働き、動物の仲間", "isNew": false, "isRemoved": false },
+          { "grade": 3, "area": "地球", "description": "自然の恵みと災害、持続可能な社会（新設）", "isNew": true, "isRemoved": false }
+        ]
+      },
+      {
+        "name": "社会",
+        "gradeStart": 1,
+        "gradeEnd": 3,
+        "objectives": "社会的な見方・考え方を働かせ、課題を追究したり解決したりする活動を通して、グローバル化する国際社会に主体的に生きる平和で民主的な国家及び社会の形成者に必要な公民としての資質・能力を育成する。",
+        "contents": [
+          { "grade": 1, "area": "地理的分野", "description": "世界の諸地域の学習における主題的な追究、日本の諸地域の学習", "isNew": false, "isRemoved": false },
+          { "grade": 2, "area": "歴史的分野", "description": "近現代史の充実、歴史の大きな流れの理解", "isNew": true, "isRemoved": false },
+          { "grade": 3, "area": "公民的分野", "description": "現代社会の見方・考え方、持続可能な社会の構築", "isNew": true, "isRemoved": false }
+        ]
+      },
+      {
+        "name": "英語",
+        "gradeStart": 1,
+        "gradeEnd": 3,
+        "objectives": "外国語によるコミュニケーションにおける見方・考え方を働かせ、4技能5領域（聞く・読む・話す[やり取り]・話す[発表]・書く）の力を総合的に育成する。",
+        "contents": [
+          { "grade": 1, "area": "4技能5領域", "description": "小学校での学習を踏まえ、1600〜1800語程度の語彙。感嘆文等を整理統合。", "isNew": true, "isRemoved": false },
+          { "grade": 2, "area": "4技能5領域", "description": "言語活動の充実、即興的なやり取りの重視", "isNew": true, "isRemoved": false },
+          { "grade": 3, "area": "4技能5領域", "description": "仮定法（I wish.../ If I were...）の一部を新たに追加", "isNew": true, "isRemoved": false }
+        ]
+      },
+      {
+        "name": "技術・家庭（技術分野）",
+        "gradeStart": 1,
+        "gradeEnd": 3,
+        "objectives": "技術の見方・考え方を働かせ、ものづくりなどの技術に関する実践的・体験的な活動を通して、技術によってよりよい生活や持続可能な社会を構築する資質・能力を育成する。",
+        "contents": [
+          { "grade": 1, "area": "材料と加工の技術", "description": "生活や社会を支える材料と加工の技術", "isNew": false, "isRemoved": false },
+          { "grade": 2, "area": "情報の技術", "description": "双方向性のあるコンテンツのプログラミング（ネットワークを利用した双方向性のあるプログラミング）", "isNew": true, "isRemoved": false },
+          { "grade": 3, "area": "情報の技術", "description": "計測・制御のプログラミング（IoT等を活用した問題解決）", "isNew": true, "isRemoved": false }
+        ]
+      }
+    ]
+  }
+]

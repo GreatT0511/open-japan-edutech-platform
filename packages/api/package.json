@@ -1,0 +1,25 @@
+{
+  "name": "@ojetp/api",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./response": "./src/response.ts",
+    "./pagination": "./src/pagination.ts",
+    "./error": "./src/error.ts",
+    "./serialize": "./src/serialize.ts"
+  },
+  "scripts": {
+    "lint": "biome check .",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "next": "^15.0.0"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.0.0",
+    "@types/node": "^22.0.0",
+    "typescript": "^5.9.0"
+  }
+}
